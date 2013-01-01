@@ -116,49 +116,49 @@
 					case 'php': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/php.png">
+									<img src="/assets/certificados/php.png">
 								</p>
 								`);
 						break;
 					case 'js': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/js.png">
+									<img src="/assets/certificados/js.png">
 								</p>
 								`);
 						break;
 					case 'vue': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/vue-profesional.png">
+									<img src="/assets/certificados/vue-profesional.png">
 								</p>
 								`);
 						break;
 					case 'laravel': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/laravel.png">
+									<img src="/assets/certificados/laravel.png">
 								</p>
 								`);
 						break;
 					case 'git-github': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/git-github.png">
+									<img src="/assets/certificados/git-github.png">
 								</p>
 								`);
 						break;
 					case 'carrera-vue': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/carrera-vue.png">
+									<img src="/assets/certificados/carrera-vue.png">
 								</p>
 								`);
 						break;
 					case 'desarrollo-web': 
 							this.$modal.open(`
 								<p class="image">
-									<img src="../assets/certificados/desarrollo-web.png">
+									<img src="/assets/certificados/desarrollo-web.png">
 								</p>
 								`);
 						break;

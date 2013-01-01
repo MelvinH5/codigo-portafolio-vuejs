@@ -22,7 +22,7 @@
 			<section class="box columns is-desktop" id="blog">
 				<div class="column">
 					<p @click="image('blog')" class="image is-quarter">
-						<img src="../assets/proyectos/blog-1.png">
+						<img src="/assets/proyectos/blog-1.png">
 					</p>
 				</div>
 				<div class="column">
@@ -46,7 +46,7 @@
 <!-- 			<section class="box columns is-desktop" id="ecommerce">
 				<div class="column">
 					<p @click="image('ecommerce')" class="image is-quarter">
-						<img src="../assets/home-hero.jpg">
+						<img src="/assets/home-hero.jpg">
 					</p>
 				</div>
 				<div class="column">
@@ -76,7 +76,7 @@
 			<section class="box columns is-desktop" id="catalogo">
 				<div class="column">
 					<p @click="image('catalogo')" class="image is-quarter">
-						<img src="../assets/proyectos/catalogo-1.png">
+						<img src="/assets/proyectos/catalogo-1.png">
 					</p>
 				</div>
 				<div class="column">
@@ -119,21 +119,21 @@ export default {
 				case 'blog':
 					this.$modal.open(`
 						<p class="image">
-							<img src="../assets/proyectos/blog-1.png">
+							<img src="/assets/proyectos/blog-1.png">
 						</p>
 					`);
 					break;
 				case 'ecommerce':
 					this.$modal.open(`
 						<p class="image">
-							<img src="../assets/proyectos/blog-2.png">
+							<img src="/assets/proyectos/blog-2.png">
 						</p>
 					`);
 					break;
 				case 'catalogo':
 					this.$modal.open(`
 						<p class="image">
-							<img src="../assets/proyectos/catalogo-1.png">
+							<img src="/assets/proyectos/catalogo-1.png">
 						</p>
 					`);
 					break;
