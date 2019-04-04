@@ -1,4 +1,4 @@
-# platzi-rooms
+# Portafolio
 
 ## Project setup
 ```
